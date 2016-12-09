@@ -1,0 +1,8 @@
+{% ckan_extends %}
+
+{% block package_description %}
+  {{ super() }}
+  {% if c.pkg.related %}
+    {% snippet "related/snippets/related_list.html", related_items=c.pkg.related, pkg_id=c.pkg.name %}
+  {% endif %}
+{% endblock %}

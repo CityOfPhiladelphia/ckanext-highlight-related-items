@@ -1,5 +1,9 @@
 # ckanext-highlight-related-items
-Surface a dataset's related items more visibly
+Surface a dataset's related items more visibly. Normally, a dataset page
+provides a text description of the dataset and then a bunch of "resources" in
+various formats. For very technical users, this is perfect. For everyone else,
+visualizations and applications are far more approachable. But they're buried in
+the "Related" tab. This plugin simply surfaces those items above the "resources."
 
 ![screenshot of dataset view page with related items beneath the
 description](http://i.imgur.com/M8dmuPc.png)

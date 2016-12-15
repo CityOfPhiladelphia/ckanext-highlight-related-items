@@ -19,4 +19,4 @@ description](http://i.imgur.com/M8dmuPc.png)
 ```
 
 ## Note
-From CKAN v2.6, Related Items has been removed from CKAN, and replaced by the Showcase extension, which works with CKAN 2.3+.
+From CKAN v2.6, Related Items has been removed from CKAN, and replaced by the [Showcase extension](https://github.com/ckan/ckanext-showcase), which works with CKAN 2.3 and above.

@@ -9,6 +9,14 @@ the "Related" tab. This plugin simply surfaces those items above the "resources.
 description](http://i.imgur.com/M8dmuPc.png)
 
 ## Installation
-I'm new to CKAN plugins, so I'm not 100% sure how to install them yet, but I'm
-fairly certain you should be able to do something [like
-this](https://github.com/ckan/ckanext-disqus#activating-and-installing).
+
+```
+ . /usr/lib/ckan/default/bin/activate
+ cd /usr/lib/ckan/default/src
+ git clone https://github.com/CityOfPhiladelphia/ckanext-highlight-related-items
+ cd ckanext-highlight-related-items
+ python setup.py develop
+```
+
+## Note
+From CKAN v2.6, Related Items has been removed from CKAN, and replaced by the [Showcase extension](https://github.com/ckan/ckanext-showcase), which works with CKAN 2.3 and above.
